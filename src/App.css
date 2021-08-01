@@ -1,38 +1,255 @@
-.App {
-  text-align: center;
+body {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+p{
+    color: #777;
+}
+/* ***********Navbar****************** */
+.bg-nav{
+    background-image: url('./bgnav.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px ;
+
+    
+}
+.navbar {
+    background-color: rgb(243, 243, 226);
+    margin: 0px 100px;
+
+}
+.title-navbar{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 1rem ;
+}
+.navbar-light .navbar-nav .nav-link  {
+    color: #131230;
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px;
+}
+.prime-color {
+    color: #ffb606;
+}
+.style-change {
+    font-style: normal;
+}
+.titel-bg {
+    color: #fff;
+    font-family: "Playfair Display",serif;
+    font-size: 70px !important;
+    font-weight: 700;
+    font-style: italic;
+}
+.titel-sm{
+    color: #fff;
+    font-size: 26px !important;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.mt-6{
+    margin-top: 15%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/****************apropos******************/
+.section-padding2 {
+    padding-top: 7%;
+}
+.align-self-center {
+    align-self: center!important;
+}
+.welcome-img {
+    padding-left: 10%;
+}
+.welcome-text {
+    padding-right: 30%;
+}
+.style-change {
+    color: #ffb606;
+    font-style: italic;
+}
+.title-apropos{
+    font-size: 40px;
+}
+.template-btn {
+    color: #131230;
+    background: #ffb606;
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 12px 30px !important;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all 0.5s;
+}
+.template-btn:hover {
+    color: #ffb606;
+    background: transparent;
+    border: 1px solid #ffb606;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+/****************plats*******************/
+.bg-plats{
+    background-image: url('./bg-plats.png');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-top {
+    margin-bottom: 80px;
+}
+h3{
+    font-family: "Playfair Display",serif;
+    font-weight: 900;
+}
+.food-img {
+    overflow: hidden;
+}
+.food-content {
+    padding: 30px;
+    background: #f9f9ff;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.img-card{
+    width: 324px;
+    height: 220px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.temp-btn {
+    color: #131230;
+    background: #ffb606;
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 5px 10px !important;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all 0.5s;
 }
-
-.App-link {
-  color: #61dafb;
+.temp-btn:hover {
+    color: #ffb606;
+    background: transparent;
+    border: 1px solid #ffb606;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/**************section3=plat******************/
+.bg-sec3{
+    background-image: url('./section3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-sec3{
+    
+    color: #fff;
+    font-family: "Playfair Display",serif;
+    font-size: 42px !important;
+    font-weight: 700;
+    
+}
+.title-h4{
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    font-size: 24px !important;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+}
+/**************special****************/
+span {
+    color: #ffb606;
+}
+.align-self-center {
+    -ms-flex-item-align: center!important;
+    align-self: center!important;
+}
+.deshes-area h1:after {
+    content: ' ' !important;
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    width: 200px;
+    height: 1px;
+    background: #131230 !important;
+}
+.style-change {
+    font-family: "Roboto",sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+}
+.template-btn3 {
+    color: #131230;
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+}
+/***********footer****************/
+.footer-widget {
+    background: #131230;
+}
+.footer-widget .single-widget1 {
+    padding-right: 30px;
+}
+.footer-widget h5 {
+    color: #ffb606;
+    font-weight: 900;
+}
+.footer-widget i {
+    color: #777;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.title-footer{
+    font-weight: 900;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+.footer-copyright {
+    padding: 30px 0;
+    background: #0d0d27;
+    color: #fff;
+}
+.footer-copyright ul li {
+    display: inline;
+    margin-left: 25px;
+}
+.color-copy{
+    color: #fff;
+}
+.social-icons li a{
+    color: rgb(255, 255, 255) ;
 }
